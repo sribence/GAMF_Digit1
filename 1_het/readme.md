@@ -175,13 +175,42 @@ A számrendszereken kívül különböző **kódrendszereket** is használunk az
     `000` -> `001` -> `011` -> `111` -> `110` -> `100` -> `000` (ciklikus)
 
 ### 3.6. ASCII kód (American Standard Code for Information Interchange)
+
 * **Jellemzők:** A legelterjedtebb karakterkódolási szabvány, amely a latin ábécé betűit (kis- és nagybetűk), számjegyeket, írásjeleket és vezérlőkaraktereket társít 7 bites bináris kódokhoz (összesen 128 karakter).
 * **Alkalmazás:** Szöveges adatok tárolása és továbbítása számítógépek között, programkódok, dokumentumok.
-* **Példa:**
-    * `A` = `01000001₂` (65₁₀)
-    * `a` = `01100001₂` (97₁₀)
-    * `0` = `00110000₂` (48₁₀)
+* **Példa karakterek:**
+    * `A` = `01000001₂` (decimálisan 65)
+    * `a` = `01100001₂` (decimálisan 97)
+    * `0` = `00110000₂` (decimálisan 48)
 
+* **ASCII táblázat:**
+    * *Itt lesz beillesztve a teljes ASCII táblázat, amikor a dokumentumot véglegesítjük.*
+
+* **Példa: A "DIGIT" szó ASCII kódolása**
+    Vegyük a "DIGIT" szót, és kódoljuk karakterenként ASCII bináris formába (7 biten):
+
+    * **D**
+        * Decimális érték: `68`
+        * Bináris kód (7 biten): `1000100₂`
+
+    * **I**
+        * Decimális érték: `73`
+        * Bináris kód (7 biten): `1001001₂`
+
+    * **G**
+        * Decimális érték: `71`
+        * Bináris kód (7 biten): `1000111₂`
+
+    * **I**
+        * Decimális érték: `73`
+        * Bináris kód (7 biten): `1001001₂`
+
+    * **T**
+        * Decimális érték: `84`
+        * Bináris kód (7 biten): `1010100₂`
+
+    A "DIGIT" szó egybefüggő ASCII bináris reprezentációja tehát a bitek egymás után fűzésével:
+    `1000100 1001001 1000111 1001001 1010100`
 ### 3.7 Számrendszerek és Kódrendszerek Összehasonlító Táblázata
 
 Ez a táblázat áttekintést nyújt a leggyakrabban használt számrendszerek (decimális, bináris, hexadecimális), valamint a fontos kódrendszerek (Stibitz/Excess-3, Gray-kód) közötti megfeleltetésről.

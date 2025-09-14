@@ -182,6 +182,36 @@ A számrendszereken kívül különböző **kódrendszereket** is használunk az
     * `a` = `01100001₂` (97₁₀)
     * `0` = `00110000₂` (48₁₀)
 
+### 3.7 Számrendszerek és Kódrendszerek Összehasonlító Táblázata
+
+Ez a táblázat áttekintést nyújt a leggyakrabban használt számrendszerek (decimális, bináris, hexadecimális), valamint a fontos kódrendszerek (Stibitz/Excess-3, Gray-kód) közötti megfeleltetésről.
+
+| Decimális | Bináris (4 bit) | Hexadecimális | Stibitz (Excess-3) | Gray-kód (4 bit) |
+| :-------: | :-------------: | :-----------: | :----------------: | :--------------: |
+|    **0** |      0000       |       0       |        0011        |       0000       |
+|    **1** |      0001       |       1       |        0100        |       0001       |
+|    **2** |      0010       |       2       |        0101        |       0011       |
+|    **3** |      0011       |       3       |        0110        |       0010       |
+|    **4** |      0100       |       4       |        0111        |       0110       |
+|    **5** |      0101       |       5       |        1000        |       0111       |
+|    **6** |      0110       |       6       |        1001        |       0101       |
+|    **7** |      0111       |       7       |        1010        |       0100       |
+|    **8** |      1000       |       8       |        1011        |       1100       |
+|    **9** |      1001       |       9       |        1100        |       1101       |
+|    **10** |      1010       |       A       |      *érvénytelen* |       1111       |
+|    **11** |      1011       |       B       |      *érvénytelen* |       1110       |
+|    **12** |      1100       |       C       |      *érvénytelen* |       1010       |
+|    **13** |      1101       |       D       |      *érvénytelen* |       1011       |
+|    **14** |      1110       |       E       |      *érvénytelen* |       1001       |
+|    **15** |      1111       |       F       |      *érvénytelen* |       1000       |
+
+---
+
+### Magyarázat a táblázathoz:
+
+* **Decimális:** A 10-es alapú számrendszer, amit a hétköznapokban használunk.
+* **Bináris:** A 2-es alapú számrendszer, a számítógépek "nyelve". Itt 4 bitet használunk az ábrázoláshoz 0-tól 15-ig.
+* **Hexadecimális:** A 16-os alapú számrendszer. A 10-15 értékeket az A-F betűkkel jelölik. Gyak
 ---
 
 ## 4. Kontextus: Tárolási Kapacitások

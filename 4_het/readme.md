@@ -6,11 +6,11 @@
 
 ### Tanár (Facilitátor)
 - Üdvözlés, játék céljának rövid ismertetése (Scrum működésének megtapasztalása)
+- Scrum Master kiválasztása: olyan kell akinek nincs tapasztalata
 - Önszerveződés hangsúlyozása – a csapatok saját magukat alakítják ki
 - Munkaterületek kialakítása (asztalok, LEGO-k, eszközök)
 - Ráhangolás: együttműködés, nem verseny
 - Közös cél tudatosítása (egy terméken dolgoznak)
-- Rendszer és szerepek (később lesz Product Owner)
 
 ### Megrendelő (Product Owner)
 - Még nem aktív ebben a szakaszban  
@@ -27,7 +27,7 @@
 - Képet ad a feladatról (városépítés LEGO-ból)
 - Elmagyarázza, hogy a PO szerepe ügyfélként jelenik meg
 - Hangsúlyozza: közös terméken dolgoznak, nem versenyeznek
-- Bátorítja a kérdéseket, kommunikációt
+- Ne hívjuk fel a figyelmet a kérdésekre, de ha van válaszoljunk
 - Átadja a szót a Product Ownernek
 
 ### Megrendelő
@@ -37,7 +37,7 @@
 - Fontos: csapatok közösen építenek **egy várost**
 - Elérhető a kérdésekre, de nem irányít
 
-> [!INFO]
+> [!Tip]
 > A PO víziót ad, **nem részletes tervet**. A tanulás az értelmezésből jön.
 
 ---
@@ -46,7 +46,7 @@
 
 ### Tanár
 - Backlog-fal bemutatása (cetlik, ötletek)
-- Közös ötletelés facilitálása
+- Közös ötletelés támogatása
 - Fontos: backlog = vízió bontása, nem utasítások
 - Csapatokat motiválja, hogy saját ötleteket is tegyenek hozzá
 - Összegzi és rendszerezi az elkészült backlogot
